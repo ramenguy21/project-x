@@ -2,16 +2,17 @@
   <div class="container">
     <div>
       <h1 class="title">project-x</h1>
+      <Editor />
     </div>
   </div>
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
+import Editor from "../components/Editor.vue";
 
 export default {
   components: {
-    Logo
+    Editor
   }
 };
 </script>
